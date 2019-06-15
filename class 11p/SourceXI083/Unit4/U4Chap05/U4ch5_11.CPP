@@ -1,0 +1,20 @@
+// Filename: \\SourceXI083\Unit4\U4Chap05\U4ch5_11.CPP
+// Demonstration of multidimensional array
+#include <iostream.h>
+main()
+{
+	int array[4][4] =
+	{	1, 	2, 	3, 	4,
+		5, 	6, 	7, 	8,
+		9, 	10, 	11, 	12,
+		13, 	14, 	15, 	16};
+	int i, j;
+	// Displaying the array in row, and column
+	for (i = 0; i < 4; i++)
+	{
+		for (j = 0; j < 4; j++)
+			cout << array[i][j] << "	";
+		cout << "\n";
+	}
+	return 0;
+}
